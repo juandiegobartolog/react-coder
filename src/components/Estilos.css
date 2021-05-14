@@ -1,0 +1,83 @@
+body{
+	font-family: 'Helvetica'
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: #FFFFFF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*.navbar:hover {
+  background-color: #ff5733;
+}*/
+
+ul.nabvar a:hover{
+  color: #000000;
+}
+
+.fa-shopping-cart{
+  color: FFFFFF;
+}
+
+.center{
+  text-align: center;
+}
+
+.logo{
+ width: 80px;
+}
+
+.card {
+  float: left;
+  padding: 0 1.7rem;
+  width: 25%;
+  height: 380px;
+}
+
+.informacion{
+  text-align: center;
+}
+
+.imagen{
+  text-align: center;
+  height: 180px;
+}
+
+.id{
+  text-align: center;
+}
+
+/*.btn{
+  max-width: 200px;
+}*/
+
+.button{
+  text-align: center;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px){
+  .card {
+    float: left;
+    padding: 0 1.7rem;
+    width: 50%;
+  }
+
+}
